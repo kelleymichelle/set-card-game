@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import Jumbotron from 'react-bootstrap/Jumbotron'
 import './App.css';
 
 function App() {
   return (
-    <div>
-      Set Card Game
-    </div>
+    <Jumbotron>
+      <h1>
+        Set
+      </h1>
+  </Jumbotron>
   );
 }
 
